@@ -6,4 +6,4 @@ Este projeto é um pequeno exercício de desenvolvimento de Agentes de IA que re
 
 Conheçam a Debbie! Nosso mascote de Inteligência Artificial. E sim, o nome é uma homenagem a alguém que amo muito <3
 
-![Debbie Bot](./IMG/Cute%20Robot%20Mascot%20with%20Pink%20Flower.png)
+![Debbie Bot](/IMG/Cute%20Robot%20Mascot%20with%20Pink%20Flower.png)
