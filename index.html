@@ -3,10 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/Ícone.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header></header>
-    
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="/img/Ícone.svg" alt="icone-estrela-IA">
+            <div class="textWrapper">
+                Debbie <span>AI</span>
+            </div>
+        </div>
+
+        <!-- Menu -->
+         <nav class="menuWrapper">
+            <ul>
+                <li><a href="#">Entrar</a></li>
+                <li><button>Cadastrar</button></li>
+            </ul>
+         </nav>
+    </header>
+
+    <!-- Main section -->
+    <section class="main">
+        <div class="text-hero">
+            <h1>Seus documentos falam. A gente só ajuda você a <span>ouvir.</span></h1>
+            <p style="color: #9CA3AF;">
+                Debbie é uma assistente de pesquisa que permite
+                conversar com seus PDFs, encontrar informações
+                relevantes e entender o que realmente importa.
+            </p>
+            <button>Começar agora   
+                <svg width="16" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="mascot-container">
+            <div class="mascot">
+                <img src="/img/DebbieAI-bot.png" alt="mascot-image">
+                <div class="mascot-shadow"></div>
+            </div>
+            <div class="line"><img src="/img/line-dialogue.svg" alt=""></div>
+            <p>Seus PDFs em boas mãos</p>
+        </div>
+
+    </section>
+
+
+<script src="components/mascot.js"></script>
 </body>
 </html>
